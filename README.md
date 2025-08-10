@@ -56,7 +56,7 @@ int main(){
     History H[10000]; initHistory(H);
     double result = 0, a = 0;
     char choice = NULL, i = 0;
-    cin >> a; //string dau
+    cin >> a;
     result = a;
     while (choice != '='){
         switch (choice){
@@ -77,7 +77,6 @@ int main(){
         cin >> choice;
         if (choice == '='){
             printHistory(H, i);
-            
         } cin >> a; H[i].b = a;
         i++;
     } return 0;
